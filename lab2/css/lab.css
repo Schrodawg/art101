@@ -28,3 +28,13 @@ p {
 #red-dance {
   border-radius: 30px;
 }
+
+#diagonal-one {
+  background-color: = blue;
+  max-width: 50em;
+  margin = 0 auto;
+}
+
+div.diagonal{
+  background-image: linear-gradient(45deg,blue, red);
+}
