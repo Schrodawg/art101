@@ -37,4 +37,5 @@ p {
 
 div.diagonal{
   background-image: linear-gradient(45deg,blue, red);
+  transform: skewY(-11deg);
 }
