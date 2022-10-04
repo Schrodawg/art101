@@ -1,9 +1,19 @@
 h1 {
-  color: orange;
+  color: purple;
   font-size: 200%;
 }
 
 p {
-  text-indent: 20px
-  
+  text-indent: 20px;
+  font-family: sans-serif;
+}
+
+#content {
+  background-color: cyan;
+  width: 1000px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: dotted 1px black;
+  font-size: 20px;
 }
