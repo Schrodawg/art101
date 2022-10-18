@@ -1,8 +1,29 @@
+body {
+  padding: 25px;
+  margin: 8px;
+}
+
 p {
   background-color: #ffcea8;
-  ;
+  font-family: "Book Antiqua", "Times New Roman"
+}
+
+#content {
+    background-color: #ffcea8;
+    margin: 10px;
+    border: 3px black solid;
+}
+
+.output {
+  margin-left: 20px;
 }
 
 img {
-  border: 3px black solid ;
+  border: 3px black solid;
+  margin-right: 5px;
+  margin-left: 12px
+}
+
+h2 {
+  font-family: "Cambria Math", "Arial"
 }
