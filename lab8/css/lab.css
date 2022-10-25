@@ -1,0 +1,11 @@
+#content {
+    background-color: #ffcea8;
+    margin: 10px;
+    border: 3px black solid;
+}
+
+img {
+    border: 3px black solid;
+    float: none;
+    margin-left: 290px
+}
