@@ -24,6 +24,11 @@ buttonEl3.innerHTML = " Button 3 ";
 //Button1 name and sort function
 buttonEl.addEventListener("click", function() {
   var nameEl = document.getElementById("user-name").value;
+  //Uses "Test" if nothing is in the box on button1 press
+  if (nameEl == '') {
+    var nameEl = "TEST";
+  }
+
   //Lowerscases the username, splits it into an array, and sorts the array
   var sortedNewName = nameEl.toLowerCase().split('').sort();
   //Uppercases first letter
