@@ -1,0 +1,18 @@
+.specialC {
+  background-color: #c9c9c9;
+  border: solid 3px magenta;
+  color: #c67cd6;
+  text-shadow: 1px 1px black;
+}
+
+.specialP {
+  background-color: #fdf7ed;
+  border: solid 3px cyan;
+}
+
+.specialR {
+  background-image: url('img/game_art.png');
+  border: black 2px solid;
+  color: red;
+  text-shadow: 1px 1px 2px black, 0 0 25px red;
+}
