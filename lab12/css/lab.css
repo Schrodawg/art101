@@ -1,0 +1,31 @@
+body {
+  background-color: #c8b5ee;
+  margin: 35px;
+}
+
+h2 {
+  font-family: "Algerian Regular", "Times New Roman", sans-serif;
+}
+
+#content {
+  background-color:#eee5ff;
+  border: 2px black dotted;
+}
+
+#output {
+  font-family: "Imprint MT Shadow Regular", sans-serif;
+  background-color:#eee5ff;
+  display: none;
+}
+
+#output h2 {
+  text-align: center;
+}
+
+#output p {
+  font-size: 20px;
+}
+
+#input {
+  margin-left: 15px;
+}
