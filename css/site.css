@@ -9,13 +9,13 @@ body {
   padding-bottom: 200px; /*Makes the white background fit the img, may need change as project progresses*/
   margin: auto;
   text-indent: 25px;
-
+  background-color: #ffdfae;
+  border: black solid 2px;
 }
 
 img {
   float: right;
   border: 10px black solid ;
-
 }
 
 h1 {
