@@ -4,7 +4,8 @@
 	<title>Lab 10 - JavaScript Events and Forms</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
-  <script src = "js/lab.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src = "js/lab.js" defer></script>
 </head>
 <body>
   <div id = "content">
@@ -14,13 +15,15 @@
     <h2>Results</h2>
     <label for="user-name">Input your name: </label>
     <input type="text" id="user-name"><br>
-		<div id = "output">
-    </div>
 		<div id = 'results2'>
+			<label for="button1">Press this once you've entered your name: </label>
+			<button id="button1"></button><br>
 			<label for="button2">Or press this to change the background: </label>
 			<button id="button2"></button><br>
 			<label for="button3">Or this one for something else: </label>
 			<button id="button3"></button><br>
+			<div id = "output">
+	    </div>
   </div>
 </body>
 </html>
